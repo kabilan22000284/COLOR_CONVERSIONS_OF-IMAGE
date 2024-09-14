@@ -61,8 +61,8 @@ Anaconda - Python 3.7
 
 
 ## Program:
-### Developed By: Pradeepraj P
-### Register Number: 212222240073 
+### Developed By: Kabilan V
+### Register Number: 212222100018
 
 ### i)Read and Display an Image
 ```
@@ -74,7 +74,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/1de23169-5bc3-46c7-b738-5a7ceba368f6)
+![download](https://github.com/user-attachments/assets/535a7f2e-3e25-491d-8df1-3239b79aab29)
 
 ### ii)Draw Shapes and Add Text
 1) Draw a line from the top-left to the bottom-right of the image.
@@ -87,7 +87,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/90164df7-4dd4-45dd-a87f-b0093bb5ab65)
+![download](https://github.com/user-attachments/assets/17ed7fb9-9370-43a6-af7e-f0babbc9e9ef)
 
 (2) Draw a circle at the center of the image.
 ```
@@ -101,7 +101,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/754618e9-0ed8-44b6-bb90-b570e0fb5a45)
+![download](https://github.com/user-attachments/assets/a8362048-f9a2-4afb-8373-7fecca877a30)
 
 (3) Draw a rectangle around a specific region of interest in the image.
 ```
@@ -117,7 +117,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/befcdf64-d023-45b2-9fbd-94739761c519)
+![download](https://github.com/user-attachments/assets/e6f4796a-e62b-4b3b-ad1d-bd01e1e73620)
 
 (4) Add the text "OpenCV Drawing" at the top-left corner of the image.
 ```
@@ -135,7 +135,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/00baeb5e-6090-4213-ab4f-c3a23bd33106)
+![download](https://github.com/user-attachments/assets/4dc5ed2d-dad8-423e-b587-6c8de0d1d4d4)
 
 ### iii)Image Color Conversion
 1) Convert the image from RGB to HSV and display it
@@ -149,7 +149,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/95970a36-8668-486f-aa5e-7368c22a10bb)
+![download](https://github.com/user-attachments/assets/7b52a538-e18f-4e08-b1c9-a2fe13446077)
 
 (2) Convert the image from RGB to GRAY and display it.
 ```
@@ -162,7 +162,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/e450b0fa-f4c5-4078-a4a8-80617918ab35)
+![download](https://github.com/user-attachments/assets/2614198f-0d0f-4131-b4d9-6fc9aa55b56d)
 
 3) Convert the image from RGB to YCrCb and display it.
 ```
@@ -175,7 +175,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/6ffaece3-e442-40ad-9da5-bb438642bf7b)
+![download](https://github.com/user-attachments/assets/90c98ce6-89da-40da-8a35-601ee8570319)
 
 (4) Convert the HSV image back to RGB and display it.
 ```
@@ -188,7 +188,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/ddc827eb-c6ca-4203-9855-f3cd365576da)
+![download](https://github.com/user-attachments/assets/1dd00366-699d-4fbd-93f5-9ea2c0385edb)
 
 ### iv)Access and Manipulate Image Pixels
 ```
@@ -204,7 +204,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/f4513f72-2d9e-4faf-a83d-020d14102dd1)
+![download](https://github.com/user-attachments/assets/a0047552-ca4e-4cbd-9a97-7cf881dfd588)
 
 ### v)Image Resizing
 ```
@@ -216,7 +216,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/fbbe8f32-2116-406e-ac83-ea61cf50c2e8)
+![download](https://github.com/user-attachments/assets/f4eef2e6-fb79-4ae5-a363-be049cb4e00b)
 
 ### vi)Image Cropping
 ```
@@ -229,7 +229,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/07012821-42a8-4aad-b3ea-59890f552611)
+![download](https://github.com/user-attachments/assets/16407666-df00-48c1-990a-fd1cb261d57b)
 
 ### vii)Image Flipping
 (1) Flip the original image horizontally and display it.
@@ -243,7 +243,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/021ea332-4c8d-46af-b5a4-3df248e1e5b8)
+![download](https://github.com/user-attachments/assets/5db2393e-cf03-4478-a1d3-1ff433db286d)
 
 (2) Flip the original image vertically and display it.
 ```
@@ -257,7 +257,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### Output
-![image](https://github.com/user-attachments/assets/2d7ebe52-7ef3-4614-83fa-3391c6394273)
+![download](https://github.com/user-attachments/assets/34eae9e3-76cc-462d-a397-1ccfc6e69b3c)
 
 ### viii)Write and Save the Modified Image
 ```
