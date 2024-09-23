@@ -81,7 +81,7 @@ cv2.destroyAllWindows()
 ```
 img = cv2.imread("wallpaper.jpg")
 img = cv2.resize(img,(500,500))
-res = cv2.line(img, (0, 0), (img.shape[1], img.shape[0]), (200, 100, 205), 10)
+res = cv2.line(img, (0, 0), (500,500), (200, 100, 205), 10)
 cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -93,9 +93,7 @@ cv2.destroyAllWindows()
 ```
 img = cv2.imread("wallpaper.jpg")
 img = cv2.resize(img,(500,500))
-height, width, _ = img.shape
-center_coordinates = (width // 2, height // 2)
-res = cv2.circle(img, center_coordinates, 150, (255, 0, 0), 10)
+res = cv2.circle(img,(250,250), 150, (255, 0, 0), 10)
 cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -107,14 +105,10 @@ cv2.destroyAllWindows()
 ```
 img = cv2.imread("wallpaper.jpg")
 img = cv2.resize(img,(500,500))
-start = (500-10,500-10)  # top-left corner of the rectangle
-stop = (0+10,0+10)   # bottom-right corner of the rectangle
-color = (100, 255, 100)  # Green rectangle
-thickness = 10           # Thickness of the rectangle
-res_img = cv2.rectangle(img, start, stop, color, thickness)
+res_img = cv2.rectangle(img, (500-10,500-10), (0+10,0+10),(100, 255, 100), 10)
 cv2.imshow('Image Window', res_img)
 cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.destroyAllWindows())
 ```
 ### Output
 ![download](https://github.com/user-attachments/assets/e6f4796a-e62b-4b3b-ad1d-bd01e1e73620)
@@ -123,13 +117,8 @@ cv2.destroyAllWindows()
 ```
 img = cv2.imread("wallpaper.jpg")
 img = cv2.resize(img,(500,500))
-text = "Opencv_drawinG"
-position = (10, 50)  # Positioning the text at the top-left corner
 font = cv2.FONT_HERSHEY_SIMPLEX
-font_scale = 1
-color = (255, 255, 255)  # White color
-thickness = 2
-res = cv2.putText(img, text, position, font, font_scale, color, thickness, cv2.LINE_AA)
+res = cv2.putText(img,"Opencv_drawinG", (10,50), font,1, (255, 255, 255),2)
 cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -197,7 +186,7 @@ img = cv2.resize(img, (400, 400))
 cv2.imshow('Original Image', img)
 pixel_value = img[100, 100]
 print(f"Pixel value at (100, 100): {pixel_value}")
-img[199, 199] = [255, 255, 255]  # Setting the pixel value to white (BGR)
+img[199, 199] = [255, 255, 255]
 cv2.imshow('Modified Image', img)
 
 cv2.waitKey(0)
@@ -221,9 +210,7 @@ cv2.destroyAllWindows()
 ### vi)Image Cropping
 ```
 image1=cv2.imread('wallpaper.jpg',1)
-x, y = 50, 50
-width, height = 425, 425
-roi = image1[y:y + height, x:x + width]
+roi = image1[50:50 + 425, 50:50 + 425]
 cv2.imshow('Cropped Image', roi)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
